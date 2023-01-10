@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+figure img{
+    width: 300px;
+    height: 200px;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    z-index: 10;
+    
+}
+header {
+    height: 69px;
+   
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    
+
+}
+.logo {
+    
+    text-align: left;
+}
+
+.logo img{
+    text-align: left;
+    
+    height: 50px;
+    position: fixed;
+    z-index: 13;
+    padding: 10px;
+}    
+    
+
+
+h1 {
+    font-family: cursive;
+    display: flex;
+    border: 1px solid seashell;
+}
+
+.teacozybox img{
+  
+   height: 50px;
+}
+.teacozybox {
+    text-align: left;
+}
+
+.nav {
+    float: right;
+    position: relative;
+    top: 10px;
+    padding: 10px;  
+    color: seashell;
+}
+.heroimage {
+    position: relative;
+    
+}
+.herowords h2, .herowords h4 {
+    position: relative;
+    color: seashell;
+    bottom: 450px;
+    z-index: 10;
+    background-color: black;
+    line-height: 55px;
+}
+.mainarticle  {
+    display: inline-flex;
+    width: 1000px;
+    height: 500px;
+    
+    
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.mainarticle figure {
+    padding: 12px;
+    text-align: center;
+}
+.subhead1 {
+    position: relative;
+    
+    line-height: 70px;
+    margin: -20px;
+    
+    bottom: 50px;
+    
+}
+.h2locations {
+    position: relative;
+    top: 125px;
+    z-index: 15;
+}
+.location_img {
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    top: 50px;
+    
+    
+    overflow: hidden;
+    
+    
+}
+
+.location_img_background {
+    position: relative;
+    bottom: 75px;
+  
+    
+   
+   
+
+}
+.three_boxes {
+    
+    height: 250px;
+    
+    
+    display: inline-flex;
+    position: relative;
+    bottom: 350px;
+    justify-content:space-between;
+    
+   
+  
+
+}
+.downtown_box {
+    
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    opacity: 0.7;
+    line-height: 50px;
+    margin: 20px;
+    
+    
+  
+    
+
+}
+.east_box {
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    line-height: 45px;
+    opacity: 0.7;
+    margin: 20px;
+}
+.oakdale_box {
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    line-height: 50px;
+    opacity: 0.7;
+    margin: 20px;
+}
+.the_tea_cozy_bottom {
+    position: relative;
+    bottom: 185px;
+}
+.contact {
+    position: relative;
+    bottom: 140px;
+
+}
+.contact_number {
+    position: relative;
+    bottom: 110px;
+}
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    top: 30px;
+}
+a:hover{
+    color: seagreen;
+}
